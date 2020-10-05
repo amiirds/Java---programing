@@ -3,7 +3,7 @@ import java.lang.Math;
 import java.util.Scanner;
 
 public class calculate {
-    public calculate(){
+    public calculate() throws Exception {
         double x1;
         double x2;
         int a;
@@ -25,7 +25,7 @@ public class calculate {
             System.out.println(x1 + "is the first root ");
             System.out.println(x2 + "is the second root");
         }
-        else System.out.println("Delta is negative ~~~> not roots ");
+        else throw new Exception("Delta is negative ~~~> not roots ");
 
     }
 }

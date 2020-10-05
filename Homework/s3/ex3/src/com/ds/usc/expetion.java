@@ -8,9 +8,10 @@ public class expetion {
         System.out.println(" Enter a string ");
         java.lang.String str = input.nextLine();
         if (str.matches(".*\\d.*")) {
-            System.out.println("there are a number");
-        } else {
-            throw new Exception("\"" + str.length() + "\" is the length of your string");
+            throw new Exception("there are a number");
         }
+        else
+            System.out.println("\"" + str.length() + "\" is the length of your string");
+
     }
 }
