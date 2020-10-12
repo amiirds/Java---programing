@@ -15,7 +15,6 @@ public class Main {
         student_information.setFathername(input.nextLine());
         System.out.println("enter student number");
         student_information.setStudent_number(input.nextLine());
-        System.out.println(student_information.getFullname());
         List <Double> grade = new ArrayList<>();
         System.out.println("enter your first grade");
         grade.add(input.nextDouble());
