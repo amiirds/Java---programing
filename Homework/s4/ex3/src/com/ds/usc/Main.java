@@ -29,6 +29,7 @@ public class Main {
         System.out.println(student_information.getFullname());
         System.out.println(student_information.getFathername());
         System.out.println(student_information.getStudent_number());
+        
 
     }
 }

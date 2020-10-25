@@ -27,5 +27,6 @@ public class student_information<fullname,student_number,fathername> {
 
     public void setFathername(fathername fathername) {
         this.fathername = fathername;
+
     }
 }
