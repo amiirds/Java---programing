@@ -6,7 +6,7 @@ public class Main  {
 
     public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
-            System.out.print("Enter Numbers like 'a+b' ");
+            System.out.print("Enter Numbers like 'a+b' = ");
             String string = scanner.next();
             String[] strings = new String[3];
             for (int i=0 ; i<3 ; i++)
