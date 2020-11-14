@@ -111,6 +111,9 @@ public class Main {
                     default:
                         System.out.println("try again");
                 }
+                connection.commit();
+                preparedStatement.close();
+                connection.close();
             }
             else System.out.println("username or password is incorrect");
         } catch (SQLException e) {
