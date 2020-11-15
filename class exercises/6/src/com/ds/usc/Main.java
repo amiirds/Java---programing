@@ -19,8 +19,8 @@ public class Main {
         user = input.nextLine();
         System.out.println("please enter your password");
         pass = input.nextLine();
-        try (Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/xepdb1", "amir",
-                "amirreza44")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/xepdb1", "amirds",
+                "ds123")) {
             Class.forName("oracle.jdbc.driver.OracleDriver");
             PreparedStatement preparedStatement = connection.prepareStatement("insert into information (fullname,email,password,username) values (?,?,?,?)");
             preparedStatement.setString(1, "amirreza delavaran");
