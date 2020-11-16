@@ -20,7 +20,10 @@ public class Main {
         try (Connection connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/xepdb1", "amirds",
                 "ds123")) {
             Class.forName("oracle.jdbc.driver.OracleDriver");
-            PreparedStatement preparedStatement = connection.prepareStatement("insert into information (fullname,email,password,username) values (?,?,?,?)");
+            PreparedStatement preparedStatement;
+//            preparedStatement = connection.prepareStatement("create table information(fullname varchar(30) , email varchar(30)  ,password varchar(40)  , username varchar(30))");
+//            preparedStatement.executeUpdate(); //sakht jadval
+            preparedStatement = connection.prepareStatement("insert into information (fullname,email,password,username) values (?,?,?,?)");
             preparedStatement.setString(1, "amirreza delavaran");
             preparedStatement.setString(2, "amiirds@gmail.com");
             preparedStatement.setString(3," amir12");
