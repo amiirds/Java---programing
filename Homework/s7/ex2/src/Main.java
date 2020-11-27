@@ -20,6 +20,8 @@ public class Main {
             case 3:
                 editor("praide",98,"120 M",tmp);
                 break;
+            default:
+                System.out.println("invalid");
         }
         reporter();
     }
