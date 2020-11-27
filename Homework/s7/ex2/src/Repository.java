@@ -12,6 +12,8 @@ public class Repository implements AutoCloseable {
         Class.forName("oracle.jdbc.driver.OracleDriver");
         connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521/xepdb1", "amirds", "ds123");
         connection.setAutoCommit(false);
+        preparedStatement = connection.prepareStatement("create table customers (melliID number , name varchar (20), car_name varchar(20), car_year number , car_price varchar (20));\n");
+//        preparedStatement.executeUpdate();
     }
     public void insert(Entity entity) throws Exception {
         preparedStatement = connection.prepareStatement("insert into customers (melliID, name, car_name, car_year, car_price) values (?,?,?,?,?)");
