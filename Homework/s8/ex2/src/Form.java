@@ -11,28 +11,28 @@ public class Form extends JFrame {
         logFrame.setVisible(true);
     }
     private void userFieldMouseClicked(MouseEvent e) {
-        if (userField.getText().equals(""))
-            userField.setText("");
+//        if (userField.getText().equals(""))
+//            userField.setText("");
     }
     private void passFieldMouseClicked(MouseEvent e) {
-        if (passField.getText().equals(""))
-            passField.setText("");
+//        if (passField.getText().equals(""))
+//            passField.setText("");
     }
     private void uNameFieldMouseClicked(MouseEvent e) {
-        if (uNameField.getText().equals(""))
-            uNameField.setText("");
+//        if (uNameField.getText().equals(""))
+//            uNameField.setText("");
     }
     private void uUserFieldMouseClicked(MouseEvent e) {
-        if (uUserField.getText().equals(""))
-            uUserField.setText("");
+//        if (uUserField.getText().equals(""))
+//            uUserField.setText("");
     }
     private void uPassFieldMouseClicked(MouseEvent e) {
-        if (uPassField.getText().equals(""))
-            uPassField.setText("");
+//        if (uPassField.getText().equals(""))
+//            uPassField.setText("");
     }
     private void uEmailFieldMouseClicked(MouseEvent e) {
-        if (uEmailField.getText().equals(""))
-            uEmailField.setText("");
+//        if (uEmailField.getText().equals(""))
+//            uEmailField.setText("");
     }
     private void logButtonMouseClicked(MouseEvent e) {
         if (userField.getText().equals("")) {
