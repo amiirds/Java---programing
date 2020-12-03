@@ -39,7 +39,7 @@ public class Form extends JFrame {
             JOptionPane.showMessageDialog(null,"Username can't be empty","ERROR",2);
 
         }
-        else if (passField.getText().equals("") || passField.getText().equals("Enter Password")) {
+        else if (passField.getText().equals("")) {
             JOptionPane.showMessageDialog(null,"password can't be empty","ERROR",2);
 
         }
