@@ -46,7 +46,6 @@ public class Form extends JFrame {
         else {
             if (Repository.users.contains(userField.getText()) == false) {
                 JOptionPane.showMessageDialog(null,"User doesn't exist","ERROR",2);
-
             }
             else {
                 index = Repository.users.indexOf(userField.getText());
