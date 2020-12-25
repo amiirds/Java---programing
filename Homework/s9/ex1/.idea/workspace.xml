@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4828852d-ba47-4971-93bb-4be2f3177f73" name="Default Changelist" comment="" />
+    <list default="true" id="4828852d-ba47-4971-93bb-4be2f3177f73" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,19 +62,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -90,7 +79,8 @@
       <workItem from="1607546000275" duration="224000" />
       <workItem from="1607546230465" duration="34000" />
       <workItem from="1607546280350" duration="1006000" />
-      <workItem from="1607547405453" duration="654000" />
+      <workItem from="1607547405453" duration="1097000" />
+      <workItem from="1607591986604" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1607548027087</created>
@@ -99,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607548027087</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit">
+      <created>1607548226697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607548226698</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <created>1607548294134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607548294134</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,43 +122,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="208" y="31" key="#Project_Structure" timestamp="1607547426114">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="208" y="31" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1607547426114" />
-    <state x="197" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607547919480">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="197" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1607547919480" />
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom" timestamp="1607548033199">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607548033190" />
-    <state width="1398" height="240" key="GridCell.Tab.0.bottom/26.23.1414.877@26.23.1414.877" timestamp="1607547845780" />
-    <state width="1398" height="240" key="GridCell.Tab.0.center" timestamp="1607548033178">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607548033178" />
-    <state width="1398" height="240" key="GridCell.Tab.0.center/26.23.1414.877@26.23.1414.877" timestamp="1607547845779" />
-    <state width="1398" height="240" key="GridCell.Tab.0.left" timestamp="1607548033171">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607548033171" />
-    <state width="1398" height="240" key="GridCell.Tab.0.left/26.23.1414.877@26.23.1414.877" timestamp="1607547845776" />
-    <state width="1398" height="240" key="GridCell.Tab.0.right" timestamp="1607548033180">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607548033180" />
-    <state width="1398" height="240" key="GridCell.Tab.0.right/26.23.1414.877@26.23.1414.877" timestamp="1607547845779" />
-    <state x="208" y="31" key="SettingsEditor" timestamp="1607546716746">
-      <screen x="26" y="23" width="1414" height="877" />
-    </state>
-    <state x="208" y="31" key="SettingsEditor/26.23.1414.877@26.23.1414.877" timestamp="1607546716746" />
   </component>
 </project>
