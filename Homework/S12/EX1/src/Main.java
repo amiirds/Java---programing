@@ -10,7 +10,7 @@ public class Main {
 
         for (int i=1 ; i<6 ; i++)
         {
-            System.out.println("No " + i +" "+" please Enter required Info\n");
+            System.out.println("No " + i +" "+" \nplease Enter required Info\n");
             try {
                 System.out.println("your name =  \nyour education =  \nyour age =  \nyour email address = ");
                 employeeinfo.info(input.next(),input.next(),input.next(),input.next());
