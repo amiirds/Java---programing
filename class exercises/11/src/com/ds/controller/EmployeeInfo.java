@@ -13,14 +13,14 @@ public class EmployeeInfo {
     @Path("/info")
     @GET
     @Produces("text/plain")
-    public String save (@QueryParam("Full Name") String name , @QueryParam("Gender") String gender , @QueryParam("Age") String age ,@QueryParam("Education") String education )
+    public String save (@QueryParam("Name") String name , @QueryParam("Gender") String gender , @QueryParam("Age") String age ,@QueryParam("Education") String education )
     {
         System.out.println("form executed in server");
         JSONObject jsonObject = new JSONObject();
-        jsonObject.put("fullname", name);
-        jsonObject.put("gender",gender);
-        jsonObject.put("age", age);
-        jsonObject.put("education",education);
+        jsonObject.put("Name", name);
+        jsonObject.put("Gender",gender);
+        jsonObject.put("Age", age);
+        jsonObject.put("Education",education);
 
         JSONArray jsonArray = new JSONArray();
         jsonArray.add(jsonObject);
