@@ -3,8 +3,8 @@
 import java.sql.SQLException;
 
 @FunctionalInterface
-public interface Employeeinfo<D> {
+public interface Employeeinfo<T> {
 
-    D info(D name, D education,D age ,D email ) throws SQLException, ClassNotFoundException ;
+     T info(T name, T education,T age ,T email ) throws SQLException, ClassNotFoundException ;
 
 }
